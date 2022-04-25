@@ -19,10 +19,10 @@
  <div id="unityContainer"></div>
 
 <script>
-var mywidth = innerWidth;
-var myheight = innerHeight;
-document.getElementById("unityContainer").style.width = mywidth + "px";
-document.getElementById("unityContainer").style.height = myheight + "px";
+var mywidth = window.innerWidth;
+var myheight = window.innerHeight;
+document.getElementById("unityContainer").style.width = mywidth;
+document.getElementById("unityContainer").style.height = myheight;
 </script>
       <script>
 setTimeout(function(){$("#unityContainer").find("button").click();},10);
